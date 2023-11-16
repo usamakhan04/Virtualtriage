@@ -1,0 +1,88 @@
+  /* App styling */
+  .App {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    
+    /* Swiper carousel styling */
+    .swiper-wrapper {
+      display: flex;
+      align-items: center !important;
+      height: 300px!important ;
+    }
+    
+    .swiper-wrapper .swiper-slide img {
+      width: 80%;
+      height: auto;
+    }
+  /* SecFive.css */
+
+    
+    
+    @media screen and (max-width: 1200px) {
+      .swiper-wrapper  {
+        height: 300px;
+      }
+    }
+    
+    .swiper {
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .swiper:before,
+    .swiper:after {
+      content: "";
+      z-index: 99;
+      display: block;
+      background: white;
+      position: absolute;
+      border-radius: 45%;
+      left: -60px; /* Adjust the value based on --v-offset */
+      right: -60px; /* Adjust the value based on --v-offset */
+    }
+    
+    .swiper:before {
+      top: -84px; /* Adjust the value based on --curve-height */
+    }
+    
+    .swiper:after {
+      bottom: -84px; /* Adjust the value based on --curve-height */
+    }
+    
+    /* Grid layout styling */
+    .wrapper {
+      display: grid;
+      grid-template-rows: 300px;
+      grid-auto-flow: column;
+      grid-gap: 24px;
+      overflow: auto;
+      scroll-snap-type: x mandatory;
+    }
+    
+    .wrapper img {
+      scroll-snap-align: center;
+    }
+    .swiper-slide{
+      transition: 1s linear;
+    }
+
+ .iconinline{
+  
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    justify-content: space-between;
+
+
+ }
+ .mbrow{
+  display: flex;
+  gap: 9%;
+  width: 63%;
+}
+ 
+
+.btnviewhover :hover{
+color: aqua;
+}

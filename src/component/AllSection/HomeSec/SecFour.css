@@ -1,0 +1,39 @@
+
+ .imagesContainer {
+	width: 500px;
+	height: 280px;
+	position: initial;
+	overflow: hidden;
+  }
+  
+  .imageDiv {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 120px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fadeIn {
+	opacity: 1;
+  }
+  
+  .fadeOut {
+	opacity: 0;
+  }
+  
+  .main-banner{
+	background-image: url(./../../../../public/assest/images/HomeImages/Banner-Image.png);
+	background-size: cover;
+  }
+
+  .center-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

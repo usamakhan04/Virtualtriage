@@ -1,0 +1,51 @@
+.content {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    padding: 50px;
+    background-color: hsl(187, 65%, 59%); /* Background color */
+    border-radius: 5px;
+  }
+  
+  .pph1 {
+    font-weight: bold;
+    color: whitesmoke;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+  }
+  
+  li {
+    /* font-weight: bold; */
+    margin-bottom: 10px;
+  }
+  
+  /* p {
+    margin-top: 20px;
+  } */
+
+
+
+  /* mobile  */
+
+
+  /* .content {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 1px;
+    padding: 10px;
+    background-color: #51cada;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+} */
+
+
+
+.Practitionersbox{
+    border: solid 2px white;
+    padding: 20px;
+    border-radius: 20px;
+}

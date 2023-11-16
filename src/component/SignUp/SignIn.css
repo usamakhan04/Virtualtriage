@@ -1,0 +1,365 @@
+html body {
+  /* background-color: #fff; */
+  font-family: sans-serif;
+}
+#particles-js {
+  height: auto;
+}
+#SignupBox{
+  height: auto;
+}
+.loginBox {
+   position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: #51cada;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.user {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  width: 80%;
+}
+@media only screen and (max-device-width: 580px) {
+#bgbannersign{
+  background-color: rgb(81, 202, 218);
+  height: 100vh!important;
+  width: 100%!important;
+}
+#bganimationdrmobi{
+    display: none;
+}
+#loginBoxmobi{
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 275px;
+  min-height: 200px;
+  background: #51cada;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+}
+/* @media only screen and (max-device-width: 375px) {
+  #bgbannersign{
+    background-color: rgb(81, 202, 218);
+    height: 118vh!important;
+    width: 73vh!important;
+  }
+  #bganimationdrmobi{
+        margin-top: 0px!important;
+       margin-left: 0px!important;
+       display: none;
+  }
+  #loginBoxmobi{
+    position: absolute;
+    top: 51%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    min-height: 200px;
+    background: #51cada;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+  } */
+#users{
+  margin-bottom: 3px;
+}
+h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+.loginBox input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.loginBox input[type="text"],
+.loginBox input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #262626;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  background: transparent;
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.loginBox input[type="text"]:hover,
+.loginBox input[type="password"]:hover {
+  color: #42f3fa;
+  border: 1px solid #42f3fa;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3), 0 0 10px rgba(0, 255, 0, 0.2),
+    0 0 15px rgba(0, 255, 0, 0.1), 0 2px 0 black;
+}
+.loginBox input[type="text"]:focus,
+.loginBox input[type="password"]:focus {
+  border-bottom: 2px solid #42f3fa;
+}
+.inputBox {
+  position: relative;
+  height: 52%;
+}
+.inputBox span {
+  position: absolute;
+  top: 10px;
+  color: #262626;
+}
+.loginBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  background: #51cada;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+}
+.loginBox a {
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+a:hover {
+  color: #00ffff;
+}
+p {
+  color: #0000ff;
+}
+
+
+.eyebtn {
+  background-color: #fff !important;
+  border: none !important;
+  width: 40px !important;
+  /* background-color: red !important; */
+  border-bottom: 2px solid #262626!important;
+}
+
+.eyebtn:hover {
+  border: none !important;
+}
+
+.input-group .btn {
+    position: relative;
+    z-index: 2;
+    height: 40px;
+}
+.btn-outline-primary:hover {
+    color: #807f7f;
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------- */
+
+
+html body {
+  /* background-color: #fff; */
+  font-family: sans-serif;
+}
+#particles-js {
+  height: auto;
+}
+#SignupBox{
+  height: auto;
+}
+.DrBox {
+   position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 200px;
+    background: #51cada;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.user {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20px;
+  width: 80%;
+}
+@media only screen and (max-device-width: 580px) {
+#bgbannersign{
+  background-color: rgb(81, 202, 218);
+  height: 100vh!important;
+  width: 100%!important;
+}
+#bganimationdrmobi{
+    display: none;
+}
+#loginBoxmobi{
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 275px;
+  min-height: 200px;
+  background: #51cada;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+}
+/* @media only screen and (max-device-width: 375px) {
+  #bgbannersign{
+    background-color: rgb(81, 202, 218);
+    height: 118vh!important;
+    width: 73vh!important;
+  }
+  #bganimationdrmobi{
+        margin-top: 0px!important;
+       margin-left: 0px!important;
+       display: none;
+  }
+  #loginBoxmobi{
+    position: absolute;
+    top: 51%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    width: 310px;
+    min-height: 200px;
+    background: #51cada;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+  } */
+#users{
+  margin-bottom: 3px;
+}
+h3 {
+  margin: 0;
+  padding: 0 0 20px;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+.DrBox input {
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: sans-serif;
+}
+.DrBox input[type="text"],
+.DrBox input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #262626;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  background: transparent;
+  font-size: 16px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.DrBox input[type="text"]:hover,
+.DrBox input[type="password"]:hover {
+  color: #42f3fa;
+  border: 1px solid #42f3fa;
+  box-shadow: 0 0 5px rgba(0, 255, 0, 0.3), 0 0 10px rgba(0, 255, 0, 0.2),
+    0 0 15px rgba(0, 255, 0, 0.1), 0 2px 0 black;
+}
+.DrBox input[type="text"]:focus,
+.DrBox input[type="password"]:focus {
+  border-bottom: 2px solid #42f3fa;
+}
+.inputBox {
+  position: relative;
+  height: 52%;
+}
+.inputBox span {
+  position: absolute;
+  top: 10px;
+  color: #262626;
+}
+.DrBox input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  background: #51cada;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 21px 1px rgb(255, 255, 255);
+}
+.DrBox a {
+  color: #262626;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+a:hover {
+  color: #00ffff;
+}
+p {
+  color: #0000ff;
+}
+
+
+.eyebtn {
+  background-color: #fff !important;
+  border: none !important;
+  width: 40px !important;
+  /* background-color: red !important; */
+  border-bottom: 2px solid #262626!important;
+}
+
+.eyebtn:hover {
+  border: none !important;
+}
+
+.input-group .btn {
+    position: relative;
+    z-index: 2;
+    height: 40px;
+}
+.btn-outline-primary:hover {
+    color: #807f7f;
+}

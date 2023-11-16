@@ -1,0 +1,78 @@
+.rating_circle{
+    width: 107px;
+    height: 106px;
+    border-radius: 73px;
+  }
+  .rating_circle2{
+    width: 107px;
+    height: 106px;
+    border-radius: 73px;
+    margin-left: 139px;
+    margin-top: -95px;
+  }
+  /* .rating_text{
+      margin-top: 38px;
+  } */
+  .stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+content: "\f005 \f005 \f005 \f005 \f005";
+color: #000000;
+}
+.dark {
+    background-color: #000000;
+}
+
+.card1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 205%;
+    height: 140px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+
+.verticalkumail {
+  border-left: 3px solid #57b8d3d1;
+  height: 110px;
+  position: absolute;
+  left: 30%;
+}
+
+.verticalCanoy {
+  border-left: 3px solid #57b8d3d1;
+  height: 110px;
+  position: absolute;
+  left: 60%;
+}
+
+.verticalKennady {
+  border-left: 3px solid #57b8d3d1;
+  height: 110px;
+  position: absolute;
+  left: 30%;
+}
