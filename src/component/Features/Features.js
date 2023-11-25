@@ -25,7 +25,7 @@ function Features() {
                   <h2
                     class="fw-bold fs-1"
                     data-aos="flip-left"
-                    style={{ color: "#69cddd" , fontFamily:"sans-serif"}}
+                    style={{ color: "black" , fontFamily:"sans-serif"}}
                   >
                     FEATURES
                
@@ -66,7 +66,7 @@ function Features() {
                   </div>
                 </div>
                 <div class="col">
-                  <div class="service-card" style={{backgroundColor:"#69cddd"}}>
+                  <div class="service-card" style={{backgroundColor:"black"}}>
                  
                     <h3 style={{fontFamily:"sans-serif"}}>
                       Experience the Convenience of Online Appointments and

@@ -10,7 +10,7 @@ function SecEight() {
       <div
         className="fix fixmobi"
         style={{
-          backgroundImage: "url('/assest/images/HomeImages/SecEight.png')",
+          backgroundImage: "url('/assest/images/HomeImages/tec-law.png')",
           backgroundSize: "cover",
           height: "800px",
         }}
@@ -27,7 +27,7 @@ function SecEight() {
                   <br />
                   the Future of
                   <br />
-                  <h2 style={{ color: "#32c6da", fontSize: "48px", fontFamily:"sans-serif" }} className="digitaltextmobi">
+                  <h2 style={{ color: "black", fontSize: "48px", fontFamily:"sans-serif", fontWeight:"bold", textShadow:"0 0 10px #fff" }} className="digitaltextmobi">
                     Digital
                     <br />
                     Healthcare

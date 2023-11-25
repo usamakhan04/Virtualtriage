@@ -12,10 +12,10 @@ function Pricing() {
       <div
         className="fix p-5 bannermobi"
         style={{
-          backgroundImage: "url('/assest/images/HomeImages/sevenSecDr.png')",
-          backgroundColor: "rgb(9 181 205 / 82%)",
-          backgroundBlendMode: "overlay",
-          backgroundRepeat: "no-repeat",
+          backgroundImage: "url('/assest/images/HomeImages/sevenSecDr.jpg')",
+          // backgroundColor: "rgb(9 181 205 / 82%)",
+          // backgroundBlendMode: "overlay",
+          // backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",
         }}
         id="Pricing"

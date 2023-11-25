@@ -8,8 +8,10 @@ function NewRatingCard() {
         class="light fix"
         style={{
           backgroundImage:
-            "url('/assest/images/HomeImages/LayerSec6banner.jpeg')",
+            "url('/assest/images/HomeImages/LayerSec6banner.jpg')",
           backgroundSize: "cover",
+          // background:"black",
+          // borderBottom:"solid"
         }}
       >
         <div class="container py-2">
@@ -38,7 +40,7 @@ function NewRatingCard() {
           >
             <div class="postcard__text t-dark">
               <h1 class="postcard__title blue">
-                <h2 style={{ color: "#50cada", fontFamily:"sans-serif" }}>
+                <h2 style={{ color: "black", fontFamily:"sans-serif" }}>
                   Dr Robert Bryce
                 </h2>
               </h1>
@@ -59,7 +61,7 @@ function NewRatingCard() {
           >
             <div class="postcard__text t-dark">
               <h1 class="postcard__title red">
-                <h2 style={{ color: "#50cada", fontFamily:"sans-serif" }}>
+                <h2 style={{ color: "black", fontFamily:"sans-serif" }}>
                   Terence Boateng
                 </h2>
               </h1>
@@ -80,7 +82,7 @@ function NewRatingCard() {
           >
             <div class="postcard__text t-dark">
               <h1 class="postcard__title green">
-                <h2  style={{ color: "#50cada",fontFamily:"sans-serif" }}>
+                <h2  style={{ color: "black",fontFamily:"sans-serif" }}>
                   Rakesh Modi
                 </h2>
               </h1>

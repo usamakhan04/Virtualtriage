@@ -21,7 +21,11 @@ const Banner = () => {
   return (
     <>
       {/* <!-- Hero Area============================================ --> */}
-      <div className="fix col-lx-12 col-lg-12 main-banner pb-20">
+      <div className="fix col-lx-12 col-lg-12 pb-20" style={{
+          backgroundImage: "url('/assest/images/HomeImages/Banner-Background.png')",
+          backgroundSize: "cover",
+          // height: "800px",
+        }}>
         <Header />
         <div className="container">
           <div className="hero-slide-content text-right">
@@ -35,10 +39,10 @@ const Banner = () => {
                 <img
                   alt="banner"
                   className="mobibanner"
-                  src="/assest/images/HomeImages/Banner-vt-Correction.png"
+                  src="/assest/images/HomeImages/pngwing.com.png"
                   style={{
                     marginTop: "-25px",
-                    scale: "1.3",
+                    scale: "1.0",
                   }}
                 />
               </div>
@@ -121,11 +125,11 @@ const Banner = () => {
                     Worldwide
                   </h4>
                 </div>
-                <div style={{marginRight: "34%" }}>
+                <div style={{marginRight: "46%" }}>
                   <div className="button-group btnmobi">
                     <Link
                       to="https://portal.virtualtriage.ca/doctor_register"
-                      className="btn transparent"
+                      className="me-4 hovhed"
                       style={{
                         borderRadius: "15px",
                         textTransform: "capitalize",
@@ -133,14 +137,15 @@ const Banner = () => {
                         paddingTop: "0px",
                         fontSize: "20px",
                         fontFamily: "Calibri",
+                        border: "solid",
+                        padding: "10px"
                       }}
                     >
                       <b>Free Trial</b>
                     </Link>
                     <Link
                       onClick={openCalendlyPopup}
-                      to=""
-                      className="btn transparent"
+                      className="hovhed"
                       style={{
                         borderRadius: "15px",
                         textTransform: "capitalize",
@@ -148,6 +153,8 @@ const Banner = () => {
                         paddingTop: "0px",
                         fontSize: "20px",
                         fontFamily: "Calibri",
+                        border: "solid",
+                        padding: "10px"
                       }}
                     >
                       <b>Book A Demo</b>

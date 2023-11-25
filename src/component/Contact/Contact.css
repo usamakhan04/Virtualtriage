@@ -21,7 +21,7 @@
 .form .input input[type="text"], .form .input input[type="email"], .form .input input[type="tel"], .form .input input[type="password"], .form .input input[type="search"], .form .input input[type="url"], .form .input textarea {
     border-color: #dddddd;
     border-style: solid;
-    background-color: #40c4d9!important;
+    background-color: black!important;
     border-width: 0 0 1px;
     float: left;
     height: 32px;
@@ -33,7 +33,7 @@
 
 
 input.pl-2.ukyy::-moz-focus-inner {
-  background-color: #40c4d9!important;
+  background-color: black!important;
 }
 
 

@@ -64,7 +64,7 @@ const Contact = () => {
         <div className="container pb-60 pt-60">
           {/* <!-- Section Title --> */}
           <div className="text-center">
-              <h3 className="heading" style={{ color: "#69cddd" , fontFamily:"sans-serif"}} data-aos="zoom-in-up">
+              <h3 className="heading" style={{ color: "black" , fontFamily:"sans-serif"}} data-aos="zoom-in-up">
                 CONTACT
               </h3>
               {/* <i className="icofont icofont-traffic-light"></i> */}
@@ -103,7 +103,7 @@ const Contact = () => {
             </div>
           </div>
           <div className="text-center col-12 mb-20 pt-40">
-            <h3 className="heading" style={{ color: "#69cddd", fontFamily:"sans-serif" }} data-aos="zoom-in">
+            <h3 className="heading" style={{ color: "black", fontFamily:"sans-serif" }} data-aos="zoom-in">
               CONTACT US
             </h3>
             {/* <i className="icofont icofont-traffic-light"></i> */}
@@ -121,7 +121,7 @@ const Contact = () => {
                       type="text"
                       name="name"
                       placeholder="Enter Name"
-                      style={{ background: "#69cddd", borderRadius:"10px", opacity:0.7 }}
+                      style={{ background: "black", borderRadius:"10px", opacity:0.7 }}
                       className="pl-2 ukyy"
                     />
                   </div>
@@ -130,7 +130,7 @@ const Contact = () => {
                       type="text"
                       name="Number"
                       placeholder="Enter Phone Number"
-                      style={{ background: "#69cddd", borderRadius:"10px", opacity:0.7 }}
+                      style={{ background: "black", borderRadius:"10px", opacity:0.7 }}
                       className="pl-2 ukyy"
                     />
                   </div>
@@ -139,7 +139,7 @@ const Contact = () => {
                       type="email"
                       name="email"
                       placeholder="Enter E-mail"
-                      style={{ background: "#69cddd", borderRadius:"10px", opacity:0.7 }}
+                      style={{ background: "black", borderRadius:"10px", opacity:0.7 }}
                       className="pl-2 ukyy"
                     />
                   </div>
@@ -148,7 +148,7 @@ const Contact = () => {
                   <textarea
                     name="message"
                     placeholder="Type Your Message"
-                    style={{ background: "#69cddd", borderRadius:"10px", opacity:0.7 }}
+                    style={{ background: "black", borderRadius:"10px", opacity:0.7 }}
                     className="pl-2 ukyy"
                   ></textarea>
                 </div>
@@ -159,7 +159,7 @@ const Contact = () => {
                   <input
                     type="submit"
                     value="send message"
-                    style={{ background: "#69cddd", border: "solid 1px white", borderRadius:"10px", fontFamily:"sans-serif" }}
+                    style={{ background: "black", border: "solid 1px white", borderRadius:"10px", fontFamily:"sans-serif" }}
                   />
                 </div>
               </form>
@@ -215,7 +215,7 @@ const Contact = () => {
             type="submit"
             value="send message"
             style={{
-              background: "#69cddd",
+              background: "black",
               border: "solid 1px white",
               borderRadius: "10px",
               fontFamily: "sans-serif",

@@ -10,7 +10,10 @@ const About = () => {
         style={{
           backgroundImage:
             "url(/assest/images/HomeImages/time-healing-concept-top-view.png)",
-          backgroundColor: "white",
+          backgroundSize:"cover",
+          // backgroundRepeat:"no-repeat"
+          // background:"black",
+          // borderBottom:"solid"
         }}
       >
         <div className="container">
@@ -28,7 +31,7 @@ const About = () => {
                     fontSize: "71px",
                     fontWeight: "600",
                     fontFamily: "sans-serif",
-                    color: "#4b4b4bf5",
+                    color: "black",
                   }}
                   data-aos="fade-up"
                   data-aos-anchor-placement="top-bottom"
@@ -41,7 +44,7 @@ const About = () => {
                     fontSize: "71px",
                     fontWeight: "600",
                     fontFamily: "sans-serif",
-                    color: "#50cada",
+                    color: "black",
                   }}
                   data-aos="fade-left"
                 >

@@ -54,8 +54,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   resize: none;
 }
 .form .input input[type="submit"] {
-  background-color: red;
-  border: 1px solid red;
+  background-color: white;
+  border: 1px solid white;
   border-radius: 0;
   color: #fff;
   display: inline-block;
@@ -68,7 +68,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 .form .input input[type="submit"]:hover {
   background-color: transparent;
-  color: red;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 .form .input-2 .input {
   width: 50%;

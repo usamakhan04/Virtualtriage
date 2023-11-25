@@ -9,8 +9,8 @@ function SecSeven() {
       <div
         className="fix p-5 bannermobi"
         style={{
-          backgroundImage: "url('/assest/images/HomeImages/sevenSecDr.png')",
-          backgroundColor: "rgb(9 181 205 / 82%)",
+          backgroundImage: "url('/assest/images/HomeImages/sevenSecDr.jpg')",
+          // backgroundColor: "black",
           backgroundBlendMode: "overlay",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",
@@ -74,7 +74,7 @@ function SecSeven() {
                             style={{
                               borderRadius: "10px",
                               width: "180px",
-                              color: "#51cada",
+                              color: "black",
                               paddingTop: "6px",
                               fontFamily: "sans-serif",
                               backgroundColor: "#fff",
@@ -132,7 +132,7 @@ function SecSeven() {
                             style={{
                               borderRadius: "10px",
                               width: "180px",
-                              color: "#51cada",
+                              color: "black",
                               paddingTop: "6px",
                               fontFamily: "sans-serif",
                               backgroundColor: "#fff",
@@ -196,7 +196,7 @@ function SecSeven() {
                             style={{
                               borderRadius: "10px",
                               width: "180px",
-                              color: "#51cada",
+                              color: "black",
                               paddingTop: "6px",
                               fontFamily: "sans-serif",
                               backgroundColor: "#fff",

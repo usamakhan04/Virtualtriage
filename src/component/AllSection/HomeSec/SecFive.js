@@ -64,12 +64,13 @@ function SecFive() {
     <>
       <div style={{
           backgroundColor: "white",
+          borderBottom:"solid"
         }}>
         <br />
         <br />
 
         <h2
-          style={{ textAlign: "center", color: "#50cada", fontFamily:"sans-serif" }}
+          style={{ textAlign: "center", color: "black", fontWeight: "bold", fontFamily:"sans-serif" }}
           data-aos="zoom-in-up"
           className="spefontmobi"
         >
@@ -77,9 +78,9 @@ function SecFive() {
         </h2>
         <br />
         <div className="container">
-        <h4 className="sec5mobi" style={{ textAlign: "center", fontFamily:"sans-serif" }}>
+        <h4 className="sec5mobi" style={{ textAlign: "center", fontFamily:"sans-serif", color:"black" }}>
           Experience Seamless, Specialized,{" "}
-          <span style={{ color: "#50cada", fontFamily:"sans-serif" }}>24/7</span> Online Consultations from
+          <span style={{ color: "black", fontFamily:"sans-serif" }}>24/7</span> Online Consultations from
           anywhere in the world. Unleash the Power of
            Convenient, Personalized Care Today
         </h4>
@@ -120,7 +121,7 @@ function SecFive() {
             style={{
               paddingTop: "4px",
               color: "white",
-              backgroundColor: "#50cada",
+              backgroundColor: "black",
               boxShadow: " -1px 1px 10px 2px gray",
               padding: "10px 40px",
               borderRadius: "18px",

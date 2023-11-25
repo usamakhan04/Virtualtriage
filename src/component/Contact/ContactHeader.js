@@ -17,8 +17,8 @@ function ContactHeader() {
         style={{
           // backgroundImage: "url('/assest/images/HomeImages/Header2img.png')",
           // backgroundSize: "cover",
-          background: 'linear-gradient(40deg, rgba(61,199,218,1) 16%, rgba(89,203,218,1) 51%, rgba(117,207,218,1) 90%)',
-          boxShadow: '10px 10px 20px rgb(61,199,218)',
+          background: 'black',
+          boxShadow: '10px 10px 20px black',
         }}
       >
         <Header />

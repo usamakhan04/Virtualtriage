@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-
+import "./Header.css"
 const Header = () => {
   return (
     <>
@@ -96,7 +96,7 @@ const Header = () => {
                 <Link
                 to="https://portal.virtualtriage.ca/login"
                 data-aos="fade-left"
-                className="btnloginmobi"
+                className="btnloginmobi hovhed"
                 style={{
                   border: " solid 1px white",
                   color: "rgb(50, 198, 218);",
@@ -113,7 +113,7 @@ const Header = () => {
                <Link
                 to="https://portal.virtualtriage.ca/register"
                 data-aos="fade-left"
-                className="btnloginmobi"
+                className="btnloginmobi hovhed"
                 style={{
                   border: " solid 1px white",
                   color: "rgb(50, 198, 218);",

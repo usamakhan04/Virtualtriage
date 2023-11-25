@@ -42,3 +42,9 @@ div:where(.swal2-icon).swal2-success [class^=swal2-success-circular-line][class$
     transform: rotate(45deg);
     border-radius: 50%;
   }
+  .btn:hover {
+    background-color: #fff;
+    color: white!important;
+    transition: 0.5s!important;
+    box-shadow: 0px 0px 25px #fff;
+  }

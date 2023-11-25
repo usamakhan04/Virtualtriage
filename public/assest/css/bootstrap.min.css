@@ -9093,7 +9093,10 @@ a.text-danger:hover {
 }
 a.text-light:focus,
 a.text-light:hover {
-  color: teal !important;
+  /* color: teal !important; */
+  text-shadow: 0 0 20px #fff;
+  transition: 0.5s;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 3);
 }
 .text-dark {
   color: #343a40 !important;

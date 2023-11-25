@@ -81,7 +81,7 @@ function Specialities() {
           <div className="text-center col-12">
             <h3
               className="heading"
-              style={{ color: "#69cddd", marginLeft: "18px", fontWeight:"bolder", fontFamily:"sans-serif" }}
+              style={{ color: "black", marginLeft: "18px", fontWeight:"bolder", fontFamily:"sans-serif" }}
               data-aos="flip-left"
             >
               SPECIALITIES
@@ -121,7 +121,7 @@ function Specialities() {
         <div className="container pb-30 pt-30">
           {/* <!-- Section Title --> */}
           <div className="text-center col-12">
-            <h3 className="heading" style={{ color: "#69cddd", fontWeight:"bolder", fontFamily:"sans-serif" }}>
+            <h3 className="heading" style={{ color: "black", fontWeight:"bolder", fontFamily:"sans-serif" }}>
               All Specialities
             </h3>
           </div>

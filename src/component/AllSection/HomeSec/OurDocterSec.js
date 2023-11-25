@@ -10,6 +10,8 @@ function OurDocterSec() {
           backgroundImage:
             "url('/assest/images/HomeImages/uknewbannerdr.png')",
           backgroundSize: "cover",
+          // background:"black",
+          // borderBottom:"solid"
         }}
       >
         <div className="container">

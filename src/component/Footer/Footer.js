@@ -3,17 +3,16 @@ import { Link } from "react-router-dom";
 import tiktok from "../../assets/Images/HomeImages/Tiktok.png";
 import axios from "axios";
 import Swal from "sweetalert2";
-import './Footer.css'
+import "./Footer.css";
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
-
+  const [email, setEmail] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Define your API endpoint here
-    const apiUrl = 'https://portal.virtualtriage.ca/contact_email';
+    const apiUrl = "https://portal.virtualtriage.ca/contact_email";
 
     // Create a FormData object and append the form data to it
     const formData = new FormData();
@@ -26,32 +25,31 @@ const Footer = () => {
       .post(apiUrl, formData)
       .then((response) => {
         // Handle a successful response here (e.g., show a success message)
-        console.log('Form submitted successfully', response);
+        console.log("Form submitted successfully", response);
         Swal.fire({
-          icon: 'success',
-          title: 'Form Submitted!',
-          text: 'Your form has been submitted successfully.',
+          icon: "success",
+          title: "Form Submitted!",
+          text: "Your form has been submitted successfully.",
         });
         // You can display a success message or redirect the user
       })
       .catch((error) => {
         // Handle any errors here (e.g., show an error message)
-        console.error('Error submitting form', error);
+        console.error("Error submitting form", error);
         Swal.fire({
-          icon: 'error',
-          title: 'Error!',
-          text: 'An error occurred while submitting the form.',
+          icon: "error",
+          title: "Error!",
+          text: "An error occurred while submitting the form.",
         });
       });
   };
-
 
   return (
     <>
       <div
         id="contact-area"
         className="contact-area pt-20"
-        style={{ background: "black" }}
+        style={{ background: "black", borderBottom: "solid" }}
       >
         <div className="container pb-30">
           {/* <!-- Section Title --> */}
@@ -61,7 +59,7 @@ const Footer = () => {
                 <h3
                   className="mb-gap fotercentermobi"
                   style={{
-                    color: "#32c6da",
+                    color: "white",
                     textDecoration: "auto",
                     textAlign: "left",
                     fontFamily: "sans-serif",
@@ -128,7 +126,7 @@ const Footer = () => {
                 <h3
                   className="mb-gap fotercentermobi"
                   style={{
-                    color: "#32c6da",
+                    color: "white",
                     textDecoration: "auto",
                     textAlign: "left",
                     fontFamily: "sans-serif",
@@ -184,7 +182,7 @@ const Footer = () => {
                 <h3
                   className="mb-gap fotercentermobi"
                   style={{
-                    color: "#32c6da",
+                    color: "white",
                     textDecoration: "auto",
                     textAlign: "left",
                     fontFamily: "sans-serif",
@@ -250,7 +248,7 @@ const Footer = () => {
                 <h3
                   className="mb-gap fotercentermobi"
                   style={{
-                    color: "#32c6da",
+                    color: "white",
                     textDecoration: "auto",
                     textAlign: "left",
                     fontFamily: "sans-serif",
@@ -317,7 +315,7 @@ const Footer = () => {
               className="fotertxtsubsmobi"
               style={{
                 fontSize: "23px",
-                color: "#32c6da",
+                color: "white",
                 fontFamily: "sans-serif",
               }}
             >
@@ -325,45 +323,41 @@ const Footer = () => {
             </h4>
             <div className="row">
               <div className="col-md-4">
-                    <form
-                      method="post"
-                      onSubmit={handleSubmit}
-                    >
-                      <h6 style={{ color: "gray", fontFamily: "sans-serif" }}>
-                        Email Address*
-                      </h6>
-                      <div className="input-group mb-3">
-                        <input
-                          type="email"
-                          className="form-control"
-                          name="email"
-                          placeholder="Enter Email"
-                          style={{
-                            background: "#32c6da",
-                            color: "black",
-                            height: "38px",
-                          }}
-                          value={email}
-                          onChange={(e)=>setEmail(e.target.value)}
-                          required
-                          
-                        />
-                        <div className="input-group-append">
-                          <button
-                            className="btn btn-success"
-                            type="submit"
-                            style={{
-                              border: "solid 1px white",
-                              height: "38px",
-                              color: "black",
-                              background: "#32c6da",
-                            }}
-                          >
-                            Send
-                          </button>
-                        </div>
-                      </div>
-                    </form>
+                <form method="post" onSubmit={handleSubmit}>
+                  <h6 style={{ color: "gray", fontFamily: "sans-serif" }}>
+                    Email Address*
+                  </h6>
+                  <div className="input-group mb-3">
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="email"
+                      placeholder="Enter Email"
+                      style={{
+                        background: "black",
+                        color: "white",
+                        height: "38px",
+                      }}
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                    <div className="input-group-append">
+                      <button
+                        className="btn btn-success"
+                        type="submit"
+                        style={{
+                          border: "solid 1px white",
+                          height: "38px",
+                          color: "white",
+                          background: "black",
+                        }}
+                      >
+                        Send
+                      </button>
+                    </div>
+                  </div>
+                </form>
               </div>
 
               <div className="dpmobifoter">
@@ -422,7 +416,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div style={{ backgroundColor: "#32c6da" }}>
+        <div style={{ backgroundColor: "black", borderTop: "solid" }}>
           <div className="container">
             <div
               className="row iconinline"
@@ -443,7 +437,10 @@ const Footer = () => {
                     className="fotertextmob"
                     style={{ fontFamily: "sans-serif" }}
                   >
-                    <b style={{ fontSize: "20px" }} className="textfotermobi">
+                    <b
+                      style={{ fontSize: "20px", color: "white" }}
+                      className="textfotermobi"
+                    >
                       <a href="tel:+16476606700">+1 (647) 660 6700</a>
                     </b>
                   </h5>
@@ -464,9 +461,12 @@ const Footer = () => {
                     }}
                     className="fotertextmob"
                   >
-                    <b style={{ fontSize: "20px" }} className="textfotermobi">
-                      <a href="mailto:info@virtualtriage.ca">
-                        info@virtualtriage.ca
+                    <b
+                      style={{ fontSize: "20px", color: "white" }}
+                      className="textfotermobi"
+                    >
+                      <a href="mailto:info@lawfully.ai">
+                        info@lawfully.ai
                       </a>
                     </b>
                   </h5>
@@ -481,7 +481,7 @@ const Footer = () => {
                     src="/assest/images/FooterImg/intgram.png"
                     style={{
                       height: "35px",
-                      border: "solid 2px black",
+                      border: "solid 2px white",
                       borderRadius: "10px",
                       padding: "5px",
                       margin: "5px",
@@ -495,10 +495,10 @@ const Footer = () => {
                 >
                   <img
                     alt="baner"
-                    src={tiktok}
+                    src="/assest/images/FooterImg/Tiktok.png"
                     style={{
                       height: "35px",
-                      border: "solid 2px black",
+                      border: "solid 2px white",
                       borderRadius: "10px",
                       padding: "5px",
                       margin: "5px",
@@ -511,7 +511,7 @@ const Footer = () => {
                     src="/assest/images/FooterImg/pinterest.png"
                     style={{
                       height: "35px",
-                      border: "solid 2px black",
+                      border: "solid 2px white",
                       borderRadius: "10px",
                       padding: "5px",
                       margin: "5px",
@@ -526,7 +526,7 @@ const Footer = () => {
                     src="/assest/images/FooterImg/fb.png"
                     style={{
                       height: "35px",
-                      border: "solid 2px black",
+                      border: "solid 2px white",
                       borderRadius: "10px",
                       padding: "5px",
                       margin: "5px",
@@ -539,7 +539,7 @@ const Footer = () => {
                     src="/assest/images/FooterImg/twitter.png"
                     style={{
                       height: "35px",
-                      border: "solid 2px black",
+                      border: "solid 2px white",
                       borderRadius: "10px",
                       padding: "5px",
                       margin: "5px",
@@ -552,7 +552,7 @@ const Footer = () => {
                     src="/assest/images/FooterImg/linkedin.png"
                     style={{
                       height: "35px",
-                      border: "solid 2px black",
+                      border: "solid 2px white",
                       borderRadius: "10px",
                       padding: "5px",
                       margin: "5px",

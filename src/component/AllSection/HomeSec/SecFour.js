@@ -19,8 +19,10 @@ function SecFour() {
   return (
     //  fix col-lx-12 col-lg-12 pb-10
     <div
-      className="fix col-lx-12 col-lg-12"
-      style={{ backgroundColor: "white" }}
+      className="fix col-lx-12 col-lg-12 pb-3"
+      style={{  backgroundImage:
+        "url(/assest/images/HomeImages/pexels-jaiju-jacob-6593883.png)",
+      backgroundSize:"cover", }}
     >
       <div className="center-container">
         <div className="hero-slide-content mobi-5">
@@ -30,14 +32,14 @@ function SecFour() {
                 className="sec1"
                 data-aos="fade-right"
               >
-                <h3 style={{ color: "#50cada", fontWeight: "800", fontFamily:"sans-serif" }}>
+                <h3 style={{ color: "black", fontWeight: "800", fontFamily:"sans-serif" }}>
                   How it works:
                 </h3>
                 <div className="row gy-4">
                   <div className="col-md-8 secfour-con">
                     <h1
                       style={{
-                        color: "#50cada",
+                        color: "black",
                         fontWeight: "400",
                         fontSize: "23px",
                         fontFamily: "sans-serif",
@@ -71,7 +73,7 @@ function SecFour() {
                   <div className="col-md-8">
                     <h1
                       style={{
-                        color: "#50cada",
+                        color: "black",
                         fontWeight: "400",
                         fontSize: "23px",
                         fontFamily: "sans-serif",
@@ -103,7 +105,7 @@ function SecFour() {
                   <div className="col-md-8">
                     <h1
                       style={{
-                        color: "#50cada",
+                        color: "black",
                         fontWeight: "400",
                         fontSize: "23px",
                         fontFamily: "sans-serif",

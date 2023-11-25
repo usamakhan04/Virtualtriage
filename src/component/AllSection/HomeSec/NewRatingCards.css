@@ -208,16 +208,16 @@ a:hover {
 }
 
 .postcard .postcard__tagbox .green.play:hover {
-  background: #40c4d9;
+  background: black;
   color: black;
 }
 
 .green .postcard__title:hover {
-  color: #40c4d9;
+  color: black;
 }
 
 .green .postcard__bar {
-  background-color: #40c4d9;
+  background-color: black;
 }
 
 .green::before {
@@ -229,15 +229,15 @@ a:hover {
 }
 
 .postcard .postcard__tagbox .blue.play:hover {
-  background: #40c4d9;
+  background: black;
 }
 
 .blue .postcard__title:hover {
-  color: #40c4d9;
+  color: black;
 }
 
 .blue .postcard__bar {
-  background-color: #40c4d9;
+  background-color: black;
 }
 
 .blue::before {
@@ -249,15 +249,15 @@ a:hover {
 }
 
 .postcard .postcard__tagbox .red.play:hover {
-  background: #40c4d9;
+  background: black;
 }
 
 .red .postcard__title:hover {
-  color: #40c4d9;
+  color: black;
 }
 
 .red .postcard__bar {
-  background-color: #40c4d9;
+  background-color: black;
 }
 
 .red::before {
